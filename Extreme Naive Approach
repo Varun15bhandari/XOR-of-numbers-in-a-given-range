@@ -3,6 +3,7 @@ class Solution {
          //your code goes here
          int XOR=0;
    // here loop running from range l to r and xor variable storing the result
+  // xoring every every number in given range
          for(int i=l;i<=r;i++){
             XOR =XOR^i;
          }
