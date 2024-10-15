@@ -1,0 +1,11 @@
+class Solution {
+    public int findRangeXOR(int l, int r) {
+         //your code goes here
+         int XOR=0;
+   // here loop running from range l to r and xor variable storing the result
+         for(int i=l;i<=r;i++){
+            XOR =XOR^i;
+         }
+         return XOR;
+    }
+}
